@@ -1,0 +1,26 @@
+.stopwatch {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tick {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.start, .reset, .stop {
+  margin-left: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: coral;
+  color: white;
+  border: 1px solid coral;
+  border-radius: 20px;
+}
+
+.start:focus, .reset:focus, .stop:focus {
+  outline: none;
+}
